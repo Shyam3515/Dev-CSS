@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>Youtube Clone</title>
+        <!--Imported Roboto Font from Google-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+             p {
+                font-family: Roboto, Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .thumbnails{
+                width:300px;
+                display:block;
+            }
+            .thumbnail_row{
+                margin-bottom: 12px;
+            }
+            .search_bar{
+               display:block;
+            }
+            .video_title{
+                margin-top: 0;
+                font-size:14px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom:10px;
+            }
+            .video-preview{
+                width:300px;
+                display:inline-block;
+                vertical-align: top;
+                margin-right:15px;
+            }
+            .channel-picture{
+                display:inline-block;
+                width:50px;
+                vertical-align: top;
+            }
+            .video-info{
+                display:inline-block;
+                width: 200px;
+            }
+            .profile-picture{
+                width:40px;
+               border-radius: 30px;
+            }
+            .thumbnail-row{
+                margin-bottom: 12px;
+            }
+            .video_arthur,
+            .video_stats{
+                font-size: 14px;
+                color:gray;
+            }
+            .video_arthur{
+               margin-bottom: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <input class="search_bar" type="text" placeholder="Search">
+        <!--First block-->
+        <div class="video-preview">
+            <!--Image block-->
+            <div class="thumbnail-row">
+                <img class="thumbnails" src="images/thumbnail-1.webp">
+            </div>
+            <!--Video-Info block-->
+            <div>
+                <!--Channel picture block-->
+                <div class="channel-picture">
+                    <img class="profile-picture" src="images/channel-1.jpeg" alt="Nothing...">
+                </div>
+                <!--Channel Info block-->
+                <div class="video-info"> 
+                    <p class="video_title">
+                        Talking tech And AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="video_arthur">
+                        Marques Brownlee &#10003;
+                    </p>
+                    <p class="video_stats"> 3.4M views &#183; 6 months ago</p>
+                </div>
+               
+            </div>
+         
+        </div>
+
+        <!--Second block-->
+        <div class="video-preview">
+            <!--Image block-->
+            <div class="thumbnail-row">
+                <img class="thumbnails" src="images/thumbnail-2.webp">
+            </div>
+            <!--Video-Info block-->
+            <div>
+                <!--Channel picture block-->
+                <div class="channel-picture">
+                    <img class="profile-picture" src="images/channel-2.jpeg" alt="Nothing...">
+                </div>
+                <!--Channel Info block-->
+                <div class="video-info"> 
+                    <p class="video_title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                      <p class="video_arthur">
+                        Markiplier &#10003;
+                      </p>
+                      <p class="video_stats">  19M views · 4 years ago</p>
+                </div>
+               
+            </div>  
+        </div>
+
+    </body>
+    
+</html>

@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Position</title>
+        <style>
+            body{
+               margin:0;
+               height:1000px;
+               padding-top:95px;
+               padding-left: 85px;
+            }
+            .div1{
+                background-color: lightblue;
+                height:200px;
+                width:200px
+            }
+            .div2{
+                background-color: lightpink;
+                height:200px;
+                width:200px
+            }
+            .header{
+                background-color: aquamarine;
+                height: 80px;
+                width:100%;
+                top:0;
+                left:0;
+                position:fixed;
+            }
+            .sidebar{
+                background-color: aqua;
+                position:fixed;
+                left:0;
+                bottom:0;
+                top:80px;
+                width:70px;
+            }
+            .abs{
+                position: absolute;
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">header</div>
+        <div class="sidebar">sidebar</div>
+        <div class="abs">absolute</div>
+        <div class="div1">
+            div 1
+        </div>
+        <div class="div2">
+            div 2
+        </div>
+    </body>
+</html>
